@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+.block-naz {
+    background-image: url(https://kartinki.pics/uploads/posts/2021-07/1626339050_3-kartinkin-com-p-fon-dlya-menyu-fast-fuda-krasivo-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    padding: 15px;
+    h1{
+        text-align: right;
+        color: white;
+        font-size: 50px;
+    }
+}
+.block-one {
+    border: 4px solid;
+    width: auto;
+    height: auto;
+    background-color: khaki;
+}
+.one1{
+    float: right;
+    width: 45%;
+    height: auto;
+
+    li{
+        list-style: none;
+
+    }
+    img{
+        width: 629px;
+        height: 275px;
+        float: right;
+        margin: 5px;
+    }
+}
+.one-img1 {
+    border: 5px solid ;
+    margin: 15px;
+    width: 525px;
+    height: 450px;
+}
+.one-naz {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block-two {
+    display: flex;
+}
+.two-img1 {
+    width: 500px;
+    height: 700px;
+}
+.two-img2 {
+    width: 500px;
+    height: 700px;
+    margin-left: auto;
+}
+.two-texst {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    padding: 69px;
+    h1{
+        text-align: center;
+    }
+    button {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        background-color: brown;
+        border: 3px solid;
+    }
+}
+
+.block-tree {
+    background-image: url(https://c.pxhere.com/images/5e/7c/cadf571bfdb58a6f2fb8aaf43251-1435905.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    h1,ul,button{
+        text-align: center;
+    }
+    button{
+        border-radius: 25px;
+        background-color: brown;
+        border: 3px solid;
+    }
+}
+.block-for {
+    background-color: wheat;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    button{
+        border-radius: 20px;
+        background-color: brown;
+        border: 3px solid;
+    }
+}
+.for-1{
+    background-color: brown;
+    width: 570px;
+    height: 650px;
+}
+.for-2{
+    text-align: center;
+    margin: 50px;
+}
+.for-3{
+    width: 570px;
+    height: 650px;
+    background-color: brown;
+    display: flex;
+}
+.block-end{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+.onaz {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+
+}
+.end-1 {
+    display: flex;
+    justify-content: space-around;   
+
+}
+@media(max-width:600px){
+    .two-texst{
+        width: 156px;
+        text-align: center;
+        padding: 15px;
+    }
+    .two-img1{
+        width: 115px;
+        background-size: cover;
+    }
+    .two-img2{
+        width: 5px;
+    }
+    .one-img1 {
+
+    }
+    .one-img1{
+    display: none;
+    } 
+}
